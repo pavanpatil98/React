@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    text-align: center;
+    background-color: rgb(123, 98, 221);
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: rgb(230, 187, 15);
+    margin: 5px;
+    padding:2px;
+    height: 16vmin;
+    width: 16vmin;
+}
+.button1{
+    background-color: rgb(75, 195, 107);
+    margin: 5px;
+    padding:2px;
+    height: 16vmin;
+    width: 16vmin;
+}
+p{
+    font-size: 30px;
+    color: black;
+}

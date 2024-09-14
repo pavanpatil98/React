@@ -1,0 +1,9 @@
+
+//pip for python
+//npm node package manager
+so once install for npm then not need to do for each project
+//os level apt-get,chocolatey windows
+
+//npx node package executor
+
+npm create vite@latest
