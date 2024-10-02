@@ -6,14 +6,19 @@ import Button from './components/buttons/Button'
 import TextInput from './components/textinput/TextInput'
 import TextInputForm from './components/textinputform/TextInputForm'
 import TextInputFormContainer from './components/textinputform/TextInputFormContainer'
-
+import { Routes,Route } from 'react-router-dom'
+import PlayGame from '../pages/PlayGame'
+import StartGame from '../pages/StartGame'
+import Home from '../pages/Home'
 function App() {
  
   return (
-    <div><p className="text-3xl font-bold ">Hangman Game</p>
-     
-        <TextInputFormContainer></TextInputFormContainer>
-    </div>
+      <Routes>
+        <Route path="/start" element={<StartGame/>}/>
+        {/*<Route path="/play" element={<PlayGame/>}/>*/}
+        <Route path="/play" element={<PlayGame/>}/>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
   )
 }
 

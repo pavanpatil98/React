@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-size), 1fr); /* Set grid columns based on the grid size */
+    grid-gap: 5px; /* Space between buttons */
+    justify-items: center; /* Align buttons horizontally in the center */
+    align-items: center; /* Align buttons vertically in the center */
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+}

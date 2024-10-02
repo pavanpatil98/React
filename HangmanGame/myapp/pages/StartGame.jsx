@@ -1,10 +1,15 @@
-function Startgame(){
+import { Link } from "react-router-dom";
+import TextInputFormContainer from "../src/components/textinputform/TextInputFormContainer";
+//<Link to='/play'>Play Game Link</Link>
+function StartGame(){
     return (
         <>
-        <h1>Start Game</h1>
-        {/* Comments here */}
+            
+            <TextInputFormContainer/>
+            <br></br>
+            <Link to='/play'>Play Game Link</Link>
         </>
     )
 }
 
-export default Startgame;
+export default StartGame;

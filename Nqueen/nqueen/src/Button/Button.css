@@ -1,0 +1,31 @@
+.grid-button {
+    background-color: #a70a0a;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Ensure text is centered */
+    aspect-ratio: 1; /* Make the buttons square */
+    width: 100%; /* Ensure buttons fill grid cells */
+}
+.grid-button1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Ensure text is centered */
+    aspect-ratio: 1; /* Make the buttons square */
+    width: 100%; /* Ensure buttons fill grid cells */
+}
+
+/* Hover effect for buttons */
+.grid-button:hover {
+    background-color: #45a049;
+}

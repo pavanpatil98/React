@@ -19,6 +19,7 @@ function TextInputForm({inputType,handleTextInputChange,handleFormSubmit,handleS
           styleType="warning"
           className="px-4 py-4"
           onClickHandler={handleShowHideClick}
+          type = "button"
         />
         <Button
           text="Submit"
